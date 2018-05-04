@@ -1959,7 +1959,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 9px 26px;
 }
 
-.main-menu {
+.main-menu{
   padding-top: 20px;
 }
 
@@ -2042,32 +2042,32 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   z-index: 99;
   background: rgba(255, 255, 255, 0.9);
+
 }
 
 .nav-menu li {
   position: relative;
   white-space: nowrap;
 }
-
 .nav-menu > li {
   float: left;
 }
-
 .nav-menu li:hover > ul,
 .nav-menu li.sfHover > ul {
   display: block;
 }
-
 .nav-menu ul ul {
   top: 0;
   left: 100%;
 }
-
 .nav-menu ul li {
   min-width: 180px;
   text-align: left;
 }
-
+i.fa.fa-user-circle.fa-3x::before{
+  position: relative;
+  padding-top: -65px;
+}
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
   padding-right: 30px;
@@ -3314,7 +3314,7 @@ figure.effect-dexter:hover p {
   border-radius: 100px;
   align-items: center;
   display: grid;
-  border: 30px solid #f4eeff;
+  border: 5px solid #4b4b7f;
 }
 
 .price-area .single-price .top-part h4 {
